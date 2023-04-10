@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test App For Flask</title>
+    </head>
+
+    <body>
+        <h1>Enter 4 Values</h1>
+        <form method="POST" action="/predict">
+            <label for="SepalLengthCm">SepalLengthCm</label>
+            <input type="text" id="SepalLengthCm" name="SepalLengthCm" required><br><br><br>
+
+            <label for="SepalWidthCm">SepalWidthCm</label>
+            <input type="text" id="SepalWidthCm" name="SepalWidthCm" required><br><br><br>
+
+            <label for="PetalLengthCm">PetalLengthCm</label>
+            <input type="text" id="PetalLengthCm" name="PetalLengthCm" required><br><br><br>
+
+            <label for="PetalWidthCm">PetalWidthCm</label>
+            <input type="text" id="PetalWidthCm" name="PetalWidthCm" required><br><br><br>
+            
+            <input type="submit" name="Predict">
+
+
+        </form>
+    </body>
+</html>
